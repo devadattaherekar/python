@@ -6,10 +6,20 @@ def user_add_cricketer():
     data.add_cricketer(name,country)
 
 def user_delete_cricketer():
-    pass
+    name=input("Enter name ")
+    data.delete_cricketer(name)
 
 def user_search_cricketer():
-    pass
+    all_records=data.display_cricketers()
+    name = input("Enter name ")
+    count_records=0
+    for each_record in all_records:
+        if each_record["name"]==name:
+            print(each_record)
+            break
+        count_records+=1
+    if count_records==len(all_records):
+        print("Record is not present!")
 
 def user_display_cricketers():
     all_cricketers=data.display_cricketers()
