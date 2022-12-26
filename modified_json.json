@@ -1,0 +1,18 @@
+{
+    "myinfo": {
+        "Address": {
+            "State": "Maharashtra",
+            "City": "Pune"
+        },
+        "First Name": "Kiran",
+        "Last Name": "Purkar",
+        "Age": 30,
+        "Technologies": {
+            "Skills": [
+                "Dockers",
+                "AWS",
+                "Kubernetes"
+            ]
+        }
+    }
+}

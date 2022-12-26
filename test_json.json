@@ -1,0 +1,12 @@
+{
+  "myinfo": {
+    "Address": {
+      "State": "Maharashtra",
+      "City": "Pune"
+    },
+    "First Name": "Devadatta",
+    "Last Name": "Herekar",
+    "Age": 42,
+    "Technologies": {"Skills": ["Linux","C++","Shell Scripting"]}
+  }
+}
