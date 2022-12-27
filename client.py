@@ -26,7 +26,7 @@ def user_display_cricketers():
     all_cricketers = data_json.display_cricketers()
     for record in all_cricketers:
         print(f'{record["name"]} plays for {record["country"]}')
-
+        #print(record)
 
 select_choice="""
 1. Add Cricketer
