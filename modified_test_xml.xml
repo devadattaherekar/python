@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myinfo>
+	<Address>
+		<State>Maharashtra</State>
+		<City>Bangalore</City>
+	</Address>
+	<Age>42</Age>
+	<Technologies>
+		<Skills>Dockers</Skills>
+		<Skills>AWS</Skills>
+		<Skills>Kubernetes</Skills>
+	</Technologies>
+	<First_Name>Kiran</First_Name>
+	<Last_Name>Herekar</Last_Name>
+</myinfo>

@@ -9,4 +9,4 @@ def delete_cricketer(name):
             cricketers.remove(record)
 
 def display_cricketers():
-    return cricketers
+    return cricketers # [{"name":sachin,"country":india}]

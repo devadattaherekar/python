@@ -1,16 +1,17 @@
-import data
+import data_json
 
 def user_add_cricketer():
     name=input("Enter name ")
     country=input("Enter country ")
-    data.add_cricketer(name,country)
+    data_json.add_cricketer(name, country)
+
 
 def user_delete_cricketer():
     name=input("Enter name ")
-    data.delete_cricketer(name)
+    data_json.delete_cricketer(name)
 
 def user_search_cricketer():
-    all_records=data.display_cricketers()
+    all_records = data_json.display_cricketers()
     name = input("Enter name ")
     count_records=0
     for each_record in all_records:
@@ -22,7 +23,7 @@ def user_search_cricketer():
         print("Record is not present!")
 
 def user_display_cricketers():
-    all_cricketers=data.display_cricketers()
+    all_cricketers = data_json.display_cricketers()
     for record in all_cricketers:
         print(f'{record["name"]} plays for {record["country"]}')
 
@@ -36,6 +37,7 @@ select_choice="""
 """
 
 def menu():
+    data_json.create_file()
     choice=int(input(select_choice))
     while choice!=5:
         if choice==1:

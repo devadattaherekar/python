@@ -1,0 +1,12 @@
+myinfo:
+  Address:
+    City: Bangalore
+    State: Maharashtra
+  Age: 42
+  First Name: Kiran
+  Last Name: Herekar
+  Technologies:
+    Skills:
+    - Dockers
+    - AWS
+    - Kubernetes
