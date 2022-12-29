@@ -1,0 +1,10 @@
+29/12/2022 13:04:30;__main__;DEBUG;debug message
+29/12/2022 13:04:30;__main__;INFO;info message
+29/12/2022 13:04:30;__main__;WARNING;warning message
+29/12/2022 13:04:30;__main__;ERROR;error message
+29/12/2022 13:04:30;__main__;CRITICAL;critical message
+29/12/2022 13:05:43;__main__;DEBUG;debug message
+29/12/2022 13:05:43;__main__;INFO;info message
+29/12/2022 13:05:43;__main__;WARNING;warning message
+29/12/2022 13:05:43;__main__;ERROR;error message
+29/12/2022 13:05:43;__main__;CRITICAL;critical message

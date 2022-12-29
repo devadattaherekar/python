@@ -1,31 +1,21 @@
-"""
-Arithmetic module is to perform arithmetic calculations
-like add,sub,etc...
-"""
+import logging
+from typing import Union
 
 
-def add(value_1, value_2):
-    """
-    Add function takes 2 parameters returns total
-    :param value_1: any object
-    :param value_2: any object
-    :return: single object
-    """
-    return value_1 + value_2
+logging.basicConfig(
+                        filename="arithmetic_logs.txt",
+                        level=logging.INFO,
+                        datefmt='%d-%m-%Y %H:%M:%S',
+                        format='%(asctime)s %(message)s'
+                    )
 
+def add(x:int,y:Union[int,float])->Union[int,float]:
+    return x+y
 
-def sub(value_1, value_2):
-    """
-    Sub function takes 2 parameters returns difference
-    :param value_1: any object
-    :param value_2: any object
-    :return: single object
-    """
-    return value_1 - value_2
+def sub(x:int,y:Union[int,float])->Union[int,float]:
+    #x=0
+    return x-y
 
-
-VALUE = 9999
-
-if __name__=="__main__":
-    print(add(10,20))
-    print(sub(100,200))
+#var1=100
+#var2=200
+#logging.info(f"Addition {var1}  and {var2} is {add(var1,var2)}")

@@ -1,0 +1,12 @@
+29-12-2022 13:04:30 debug message
+29-12-2022 13:04:30 info message
+29-12-2022 13:04:30 warning message
+29-12-2022 13:04:30 error message
+29-12-2022 13:04:30 critical message
+29-12-2022 13:04:30 Addition 100  and 200 is 300
+29-12-2022 13:05:43 debug message
+29-12-2022 13:05:43 info message
+29-12-2022 13:05:43 warning message
+29-12-2022 13:05:43 error message
+29-12-2022 13:05:43 critical message
+29-12-2022 13:05:43 Addition 100  and 200 is 300
